@@ -1,17 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto + Sans&family=Space + Mono&display=swap');
-/* 
-font-family: 'Noto Sans', sans-serif;
-font-family: 'Space Mono', monospace; */
 
 * {
+  background-color: #c9e2c9;
   max-width: 100vw;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-  background-color: #c9e2c9;
 }
 
-h1 {
-  color: #3f3140;
+.heading1 {
   font-family: 'Noto Sans', sans-serif;
+  color: #3f3140;
+  margin: 1rem 0 0.5rem;
+}
+
+.heading2 {
+  font-family: 'Space Mono', monospace;
+  letter-spacing: 0.1em;
+  color: #74121d;
+  margin: 2rem 0 0.5rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.editor {
+  background-color: #002500;
+  color: #fff;
+  width: 50vw;
+  height: 30vh;
+}
+
+.previewer {
+  /* display: flex;
+  flex-direction: column; */
+
+  font-size: 1.2rem;
 }
