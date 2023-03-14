@@ -2,8 +2,6 @@ import { useState } from 'react';
 import { marked } from 'marked';
 import './App.css';
 
-// const renderer = new marked.Renderer();
-
 function App() {
   const [textEditor, setTextEditor] = useState(`
   # H1 heading
